@@ -1,0 +1,19 @@
+<div>
+  <h2>Component 1</h2>
+
+  <!-- IPL Team Name : <h4>{{sharedService.sharedValue}}</h4>
+  User Name : <h4>{{sharedService.sharedValue}}</h4> -->
+  IPL Team Name :
+  <!-- <input type="text" [(ngModel)]="child1Value" /><br /> -->
+  <select name="IPL Team Name" [(ngModel)]="child1Value">
+    <option>Mumbai Indians</option>
+    <option>Chennai Super Kings</option>
+    <option>Royal Challenges</option>
+  </select>
+  User Name...... : <input type="t" [(ngModel)]="child2Value" /><br />
+  Bitting price ($) :
+  <h4>{{ sharedService.sharedValue }}</h4>
+
+  <br /><br /><br />
+  <button (onclick)="setSharedValue1()">Set Shared Value</button>
+</div>

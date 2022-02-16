@@ -1,0 +1,14 @@
+<div>
+  <h2>Component 2</h2>
+
+  <!-- IPL Team Name : <input type="text" [(ngModel)]="child2Value"><br>
+  User Name.........     : <input type="text" [(ngModel)]="child2Value"><br> -->
+  IPL Team Name :
+  <h4>{{ sharedService.sharedValue1 }}</h4>
+  User Name :
+  <h4>{{ sharedService.sharedValue1 }}</h4>
+  Bitting price ($) : <input type="text" [(ngModel)]="child2Value" />
+
+  <br /><br /><br />
+  <button (click)="setSharedValue()">Set Shared Value</button>
+</div>
